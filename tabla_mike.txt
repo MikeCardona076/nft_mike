@@ -1,0 +1,4 @@
+hora puede agregar una tabla que verifique si existe la tabla "blacklist" y la regla 
+
+sudo nft add table ip blacklist
+sudo nft add chain ip blacklist input { type filter hook input priority 0 \; }
